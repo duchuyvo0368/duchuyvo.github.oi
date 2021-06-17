@@ -1,0 +1,32 @@
+//        JFileChooser fileChooser = new JFileChooser();
+//        int rVal = fileChooser.showOpenDialog(null);
+//        if (rVal == JFileChooser.APPROVE_OPTION) {
+        //    byte[] selectedFile = new byte[(int) fileChooser.getSelectedFile().length()];
+            //BufferedInputStream bis;
+      //      try {
+//                bis = new BufferedInputStream(new FileInputStream(fileChooser.getSelectedFile()));
+//                // Đọc file vào biến selectedFile
+//                bis.read(selectedFile, 0, selectedFile.length);
+//
+//                dos.writeUTF("File");
+//                dos.writeUTF(lbReceiver.getText());
+//                dos.writeUTF(fileChooser.getSelectedFile().getName());
+//                dos.writeUTF(String.valueOf(selectedFile.length));
+//
+//                int size = selectedFile.length;
+//                int bufferSize = 2048;
+//                int offset = 0;
+//
+//                // Lần lượt gửi cho server từng buffer cho đến khi hết file
+//                while (size > 0) {
+//                    dos.write(selectedFile, offset, Math.min(size, bufferSize));
+//                    offset += Math.min(size, bufferSize);
+//                    size -= bufferSize;
+//                }
+//
+//                dos.flush();
+//
+//                bis.close();
+//
+//                // In ra màn hình file
+//                newFile(username, fileChooser.getSelectedFile().getName(), selectedFile, true);
